@@ -1,0 +1,13 @@
+
+Upload Images To Docker Hub
+##########################################################################
+# Log in to Docker Hub
+docker login
+
+# Tag your Docker image
+docker tag my-custom-nginx yourusername/my-custom-nginx:latest
+
+# Push your Docker image to Docker Hub
+docker push yourusername/my-custom-nginx:latest
+
+#########################################################################
